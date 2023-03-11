@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="forms.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <form>
+            <fieldset class="main-form">
+                <legend>Контактна інформація</legend>
+                <div class="form-group">
+                    <label for="name">Ім'я *</label><input id="name" type="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label><input type="email">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Телефон</label><input type="telefone">
+                </div>
+                <div class="form-group">
+                    <label for="textarea">Текстова область</label>
+                    <textarea name="textarea" id="textarea" cols="30"></textarea>
+                </div>
+                <div class="checkmark-container">
+                    <input id="checkmark1" type="checkbox">
+                    <label class="checkmark-container__first" for="checkmark1">Я не робот</label>
+                    <input id="checkmark2" type="checkbox">
+                    <label class="checkmark-container__second" for="checkmark2">Я не вру</label>
+                    <input id="checkmark3" type="checkbox">
+                    <label class="checkmark-container__third" for="checkmark3">Я напевно не вру</label><br>
+                </div>
+                <select name="countries" id="countries">
+                    <option>Afghanistan</option>
+                    <option>Albania</option>
+                    <option>Benin</option>
+                    <option>Burundi</option>
+                    <option>Cameroon</option>
+                    <option>Chad</option>
+                    <option>Comoros</option>
+                    <option>Botswana</option>
+                    <option>Eritrea</option>
+                    <option>Ethiopia</option>
+                    <option>Gabon</option>
+                    <option>Gambia</option>
+                    <option>Ghana</option>
+                    <option>Guinea</option>
+                    <option>Kenya</option>  
+                </select>
+            </fieldset>
+                 <div class="form-submit"><label for="submit"></label><input type="submit"></div>
+        </form>
+    </body>
+</html>
+
